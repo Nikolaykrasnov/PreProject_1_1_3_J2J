@@ -12,22 +12,23 @@ public class Main {
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
         UserService userService = new UserServiceImpl();
+        /*userService.createUsersTable();
 
-        userService.createUsersTable();
-
-        userService.saveUser("Иван", "Иванов", (byte) 25);
-        userService.saveUser("Мария", "Петрова", (byte) 30);
-        userService.saveUser("Алексей", "Сидоров", (byte) 22);
-        userService.saveUser("Ольга", "Козлова", (byte) 28);
+        userService.saveUser("Ivan", "Ivanov", (byte) 25);
+        userService.saveUser("Petr", "Petrov", (byte) 30);
+        userService.saveUser("Anna", "Sidorova", (byte) 22);
 
         List<User> users = userService.getAllUsers();
+
         for (User user : users) {
             System.out.println(user);
-        }
+        }*/
 
+        //userService.removeUserById(2);
 
-        userService.cleanUsersTable();
+        //userService.cleanUsersTable();
 
         //userService.dropUsersTable();
+
     }
 }
